@@ -226,6 +226,6 @@ footer {
 }
 @media screen and (max-width: 450px) {
     nav {
-        margin: 5px 0 0 50px;
+        margin: 0 0 0 50px;
     }
 }
