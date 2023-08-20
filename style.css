@@ -135,6 +135,8 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
     margin-bottom: 100px;
 }
 .pgReforma {
