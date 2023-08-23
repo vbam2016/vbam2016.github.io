@@ -171,21 +171,52 @@ footer {
     margin: 0 0 30px 30px;
 }
 
+.secContacta {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
 .pgContactaTitle {
     font-size: 50px;
     margin-bottom: 50px;
 }
 .pgContacta {
+    background-color: rgb(45, 45, 45);
     margin-bottom: 100px;
+    width: fit-content;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.pgContacta:hover {
+    transform: scale(103%); 
 }
 .pgContacta p {
-    margin-top: 40px;
-    color: rgb(45, 45, 45);
+    margin: 40px;
+    color: rgb(202, 202, 202);
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .pgContacta span {
     text-decoration: underline;
+}
+.infoCopy {
+    margin-left: 30px;
+    display: flex;
+    justify-content: start;
+    height: fit-content;
+}
+.infoCopy img{
+    width: 30px;
+    height: 30px;
+}
+.infoCopy p {
+    width: fit-content;
+    height: fit-content;
+    font-size: 10px;
+    position: relative;
+    bottom: 30px;
 }
 
 .imagesInPg {
